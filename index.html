@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Главная</title>
+	<meta name='description' content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+</head>
+<body class="loaded">
+
+
+	<!-- BEGIN BODY -->
+
+	<div class="main-wrapper">
+		<div class="decor-small"></div>
+		<div class="decor-big"></div>
+		<!-- BEGIN CONTENT -->
+
+		<main class="content">
+			
+			<div class="wrapper">
+				<div class="content-top">
+					<h1 class="content-top__title">Пункт обмена криптовалют</h1>
+					<div class="content-top__location">
+						<div class="box-form">
+							<form>
+								<div class="box-field country-box">
+									<label for="country" class="box-field__label">Местоположение обменника</label>
+									<div class="box-field__input box-field__input_county">
+										<select id="country" class="styled country-box__select">
+											<option class="country country_estonia">
+												Estonia
+											</option>
+											<option class="country country_ukraine">
+												Україна
+											</option >
+											<option class="country country_russia">
+												Россия
+											</option>
+										</select>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="content-geo">	
+					<div class="content-geo__geo">	
+						<span class="icon-geo"></span>
+						<span class="content-geo__text">Пункт обмена <b>Peterburi tee 47, punkt</b></span>
+					</div>
+					<div class="content-geo__support">
+						<span class="content-geo__text">Мы поддерживаем <b>наличные</b> и банковские платежи</span>
+					</div>
+				</div>
+				<div class="main-info">	
+					<ul class="main-info-list">
+						<li class="main-info-list__item main-info-list__item_payment">
+							<div class="main-info-list__cont">	
+								<div class="main-info-list__cont-top">
+									<h2 class="main-info-list__title">1. Продаёте
+										<span class="icon-box icon-box_arrow icon-box_right">
+											<span class="icon icon-arrow"></span>
+										</span>
+									</h2>
+									<ul class="list-check">
+										<li class="list-check__item list-check__item_eur">
+											<label class="list-check__label js-list-check__label js-change-currency active" data-currency="eur">
+												<input type="checkbox" name="check_1">
+												<span class="label-text">eur</span>
+												<span class="checkbox-box"></span>
+											</label>
+										</li>
+										<li class="list-check__item list-check__item_crypto">
+											<label class="list-check__label js-list-check__label js-change-currency" data-currency="crypto">
+												<input type="radio" name="check_2">
+												<span class="label-text">crypto</span>
+												<span class="checkbox-box"></span>
+											</label>
+										</li>
+									</ul> 
+									<div class="box-field box-field_sell-eur active">
+										<div class="box-field__input ">
+											<input type="text" class="form-control" placeholder="" onkeyup="return proverka(this);" onchange="return proverka(this);">
+											<span class="currency-name">eur</span>
+										</div>
+									</div>
+									<div class="box-field box-field_sell-crypto box-field_crypto">
+										<div class="box-field__input">
+											<input type="text" class="form-control" placeholder="" onkeyup="return proverka(this);" onchange="return proverka(this);">
+											<span class="currency-name">bit</span>
+										</div>
+									</div>
+								</div>
+								<div class="main-info-list__cont-bottom">	
+									<div class="main-info-list__sub-title">Другие способы оплаты:</div>
+									<div class="js-payment-method-available">
+										<ul class="list-check list-check_payment-method">
+											<li class="list-check__item">
+												<label class="list-check__label active js-list-check__label">
+													<input type="checkbox" name="check_1">
+													<span class="label-text">Оплата наличными в офисе</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+									<div class="main-info-list__sub-title">Недоступные способы оплаты:</div>
+									<div class="js-payment-method-unavailable">
+										<ul class="list-check list-check_payment-method">
+											<li class="list-check__item">
+												<label class="list-check__label list-check__label_swedbank list-check__label_unavailable-forms">
+													<input type="radio" name="check_2">
+													<span class="label-text">
+														<img src="img/swedbank.png" alt="swedbank">
+													</span>
+												</label>
+											</li>
+											<li class="list-check__item">
+												<label class="list-check__label list-check__label_lhvpank list-check__label_unavailable-forms">
+													<input type="radio" name="check_2">
+													<span class="label-text">
+														<img src="img/lhvpank.png" alt="swedbank">
+													</span>
+												</label>
+											</li>
+											<li class="list-check__item">
+												<label class="list-check__label list-check__label_paypal list-check__label_unavailable-forms">
+													<input type="radio" name="check_2">
+													<span class="label-text">
+														<img src="img/paypal.png" alt="paypal">
+													</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+						</li>
+						<li class="main-info-list__item main-info-list__item_obtaining">
+							<div class="main-info-list__cont">	
+								<div class="main-info-list__cont-top">
+									<h2 class="main-info-list__title">2. Получаете
+										<span class="icon-box icon-box_arrow ">	
+											<span class="icon icon-arrow icon-arrow"></span>
+										</span>
+									</h2>
+									<ul class="list-check">
+										<li class="list-check__item list-check__item_eur list-check__item_get-eur hide">
+											<label class="list-check__label active">
+												<input type="checkbox" name="check_1">
+												<span class="label-text">eur</span>
+												<span class="checkbox-box"></span>
+											</label>
+										</li>
+										<li class="list-check__item list-check__item_crypto list-check__item_get-crypto">
+											<label class="list-check__label active">
+												<input type="radio" name="check_2">
+												<span class="label-text">crypto</span>
+												<span class="checkbox-box"></span>
+											</label>
+										</li>
+									</ul> 
+									<div class="box-field box-field_get-crypto  box-field_crypto active">
+										<div class="box-field__input">
+											<input disabled type="text" class="form-control" placeholder="0.00024870">
+											<span class="currency-name">bit</span>
+										</div>
+									</div>
+									<div class="box-field box-field_get-eur ">
+										<div class="box-field__input">
+											<input disabled type="text" class="form-control" placeholder="0.00024870">
+											<span class="currency-name">eur</span>
+										</div>
+									</div>
+								</div>
+								<div class="main-info-list__cont-bottom">	
+									<div class="main-info-list__sub-title">Способ получения:</div>
+									<div class="js-obtaining-method-available">
+										<ul class="list-check list-check_method-obtaining">
+											<li class="list-check__item">
+												<label class="list-check__label active js-list-check__label" data-currency-name="bit">
+													<input type="checkbox" name="check_1">
+													<span class="label-text">Bitcoin</span>
+													<span class="icon icon-bitcoin"></span>
+												</label>
+											</li>
+											<li class="list-check__item">
+												<label class="list-check__label js-list-check__label" data-currency-name="eth">
+													<input type="radio" name="check_2">
+													<span class="label-text">Ethereum</span>
+													<span class="icon icon-ethereum"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+									<div class="main-info-list__sub-title">Недоступные способы получения:</div>
+									<div class="js-obtaining-method-unavailable">
+										<ul class="list-check list-check_method-obtaining">
+											<li class="list-check__item">
+												<label class="list-check__label list-check__label_unavailable-forms">
+													<input type="radio" name="check_2">
+													<span class="label-text">Litecoin</span>
+													<span class="icon icon-litecoin"></span>
+												</label>
+											</li>
+											<li class="list-check__item">
+												<label class="list-check__label list-check__label_unavailable-forms">
+													<input type="radio" name="check_2">
+													<span class="label-text">Ripple</span>
+													<span class="icon icon-ripple"></span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							
+						</li>
+						<li class="main-info-list__item main-info-list__item_data-input
+						">
+						<div class="main-info-list__cont">	
+							<div class="main-info-list__cont-top">
+								<h2 class="main-info-list__title">3. Ввод данных</h2>
+								<div class="main-info-list__sub-title main-info-list__sub-title_data-input">Введите данные для завершения обмена:</div>
+								<div class="box-form box-form_data-input">
+									<form>
+										<div class="box-field">
+											<label for="email" class="box-field__label">Ваш e-mail</label>
+											<span class="icon icon-message"></span>
+											<div class="box-field__input">
+												<input id="email" type="email" class="form-control form-control_email" placeholder="Ваш e-mail" value="">
+											</div>
+										</div>
+										<div class="box-field">
+											<label for="email" class="box-field__label">Ваш e-mail</label>
+											<span class="icon icon-phone"></span>
+											<div class="box-field__input">
+												<input type="tel" class="form-control form-control_tel" placeholder="Номер телефона">
+											</div>
+										</div>
+										<div class="box-field">
+											<label for="email" class="box-field__label">Номер кошелька bitcoin</label>
+											<span class="icon icon_bitcoincash icon-bitcoin"></span>
+											<div class="box-field__input">
+												<input type="text" class="form-control form-control_number" placeholder="Номер кошелька bitcoin">
+											</div>
+										</div>
+										<div class="g-recaptcha" data-sitekey="6LfG30UUAAAAALo2dIcXViXR-ayryyTeFtZRCeP5"></div>
+										<div class="list-chec-item">
+											<label class="list-check-label">
+												<input type="checkbox" name="check_1">
+												<span class="checkbox-box"></span>
+												<span class="label-text">Я согласен с <a href="#">условиями и правилами сервиса</a></span>
+											</label>
+										</div>
+										<div class="box-field box-field__button">
+											<button class="button">НАЧАТЬ ОБМЕН</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="license">
+				Мы работаем на основании лицензии «об обмене виртуальных ценностей на деньги». Номер лицензии 345456456
+			</div>
+
+
+		</div>		
+	</main>	
+
+	<!-- CONTENT EOF   -->
+
+	<!-- BEGIN HEADER -->
+
+	<header class="clearfix">
+		<div class="header-wrap">	
+			<div class="share">
+				<a href="#">
+					<span class="icon-box icon-box_share">	
+						<span class="icon icon-share"></span>
+					</span>
+				</a>
+			</div>	
+			<div class="header-lang">
+				<div class="box-lang js-main-lang">
+					<div class="lang-select js-lang-title">
+						<div class="icon-box icon-box_lang">
+							<span class="lang-select__text">EN</span>
+						</div>
+					</div>
+					<ul class="list-lang js-list-lang">                               
+						<li class="list-lang__item">
+							<a href="#">
+								<label class="list-lang__label">
+									<input class="list-lang__input" type="radio" name="lang" checked>
+									<span class="list-lang__text">ru</span>
+									<span class="list-lang__name">Русский</span>
+								</label>
+							</a>
+						</li>
+						<li class="list-lang__item">
+							<a href="#">
+								<label class="list-lang__label">
+									<input class="list-lang__input" type="radio" name="lang">
+									<span class="list-lang__text">uk</span>
+									<span class="list-lang__name">Український</span>
+								</label>
+							</a>
+						</li>
+						<li class="list-lang__item">
+							<a href="#">
+								<label class="list-lang__label">
+									<input class="list-lang__input" type="radio" name="lang">
+									<span class="list-lang__text">en</span>
+									<span class="list-lang__name">English</span>
+								</label>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="header-logo">
+				<a href="#" class="header-logo__img">
+					<img src="img/logo.svg" alt="bitsto">
+				</a>
+			</div>
+			<nav class="nav-main js-nav-main fixed-block">
+				<a class="mobile-menu js-button-nav" href="#">
+					<span></span>
+				</a>
+				<ul class="main-nav-list">
+					<li class="main-nav-list__item active"><a href="#" class="main-nav-list__link">Our locations</a></li>
+					<li class="main-nav-list__item"><a href="#" class="main-nav-list__link">Table of rates</a></li>
+					<li class="main-nav-list__item"><a href="#" class="main-nav-list__link">Terms and rules</a></li>
+					<li class="main-nav-list__item"><a href="#" class="main-nav-list__link"> About us</a></li>
+					<li class="main-nav-list__item"><a href="#" class="main-nav-list__link">Contacts</a></li>
+				</ul>
+			</nav>
+			<div class="header-login">
+				<a href="#" class="header-login__mob-btn js-header-login__mob-btn">
+					<span class="icon-box icon-box_authorization">	
+						<span class="icon icon-user"></span>
+					</span>
+				</a>
+				<div class="header-login__box">
+
+					<div class="header-login__authorization">
+						<a href="#">
+							<span class="icon-box icon-box_authorization">	
+								<span class="icon icon-user"></span>
+							</span>
+							<span>Авторизация</span>
+						</a>
+					</div>
+					<div class="header-login__or">или</div>
+					<div class="header-login__registration">
+						<a href="#" class="button js-popup">Регистрация</a>
+					</div>
+				</div>
+			</div>
+			<!-- <nav class="nav-custom js-nav-custom"></nav> -->
+		</div>
+		
+	</header>
+
+	<!-- HEADER EOF   -->	
+
+	<!-- BEGIN FOOTER -->	
+
+	<footer>
+		<div class="footer-logo">
+			<div class="footer-logo__box">
+				<div class="footer-logo__img">
+					<img src="img/logo-footer.svg" alt="">
+				</div>
+				<div class="footer-logo__text">By BITS tokens</div>
+			</div>
+		</div>
+		<div class="footer-adress">
+			Peterburi tee 47, 11415 Tallinn, Estonia
+		</div>
+		<div class="footer-copy">
+			© 2018 Bitsto.com <sup>TM</sup>
+		</div>
+	</footer>
+
+	<!-- FOOTER EOF   -->
+
+
+</div>
+
+<div class="icon-load"></div>		
+
+<!-- BODY EOF   -->
+
+<script src="js/jquery-3.0.0.min.js"></script>		
+<script src="js/jquery-migrate-1.4.1.min.js" ></script>
+<script src="js/components/jquery.formstyler.js" ></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script src="js/custom.js" ></script>
+</body>
+</html>
