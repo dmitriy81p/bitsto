@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yocz32');
+  src:  url('fonts/icomoon.eot?yocz32#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yocz32') format('truetype'),
+    url('fonts/icomoon.woff?yocz32') format('woff'),
+    url('fonts/icomoon.svg?yocz32#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e911";
+  color: #85949f;
+}
+.icon-arrow-down:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-converter-change:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-Group-268:before {
+  content: "\e90d";
+  color: #29475b;
+}
+.icon-Group-219:before {
+  content: "\e90e";
+  color: #7e909c;
+}
+.icon-Path-490:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-Path-493:before {
+  content: "\e90c";
+  color: #29475b;
+}
+.icon-etherium-classic:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-geo:before {
+  content: "\e901";
+  color: #4ba9ff;
+}
+.icon-litecoin:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-message:before {
+  content: "\e903";
+  color: #7e909c;
+}
+.icon-phone:before {
+  content: "\e904";
+  color: #7e909c;
+}
+.icon-ripple:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-share:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-user:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-bitcoin:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-ethereum:before {
+  content: "\e90a";
+  color: #fff;
+}
