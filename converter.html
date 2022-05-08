@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Главная</title>
+	<meta name='description' content="" />
+	<meta name="keywords" content="" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+</head>
+<body class="loaded">
+
+
+	<!-- BEGIN BODY -->
+
+	<div class="main-wrapper main-wrapper_converter">
+		<div class="decor-small decor-small_styled"></div>
+		<div class="decor-big decor-big_styled"></div>
+		<div class="decor__line"></div>
+		<!-- BEGIN CONTENT -->
+
+		<main class="content">
+			<div class="converter-main-box">
+			<div class="wrapper">
+				<div class="content-logo">
+					<a href="#" class="content-logo__img">
+						<img src="img/content-logo.svg" alt="bitsto">
+					</a>
+				</div>
+				<h1 class="converter-main-title">Cryptocurrency converter</h1>
+
+				<div class="converter">
+					<div class="change-btn">
+						<div class="change-btn__radius-box">
+							<div class="change-btn__radius"></div>
+						</div>
+						<div class="change-btn__change js-change-btn">
+							<span class="icon-converter-change"></span>
+						</div>
+					</div>
+					<div class="js-converter-from converter-box converter-box_from">
+						<div class="currency-title">from</div>
+						<div class="converter__item ">
+							
+							<div class="currency">
+								<ul class="currency__list currency__list_from">
+									<li class="currency__item js-currency__item btn-more-mob js-btn-more-mob  active">
+										<span class="icon-arrow-down"></span>
+										<div class="currency__name">BTC</div>
+										<div class="currency__name_full">bitcoin</div>
+									</li>
+									<li class="currency__item js-currency__item currency__item_mob-hide">
+										<div class="currency__name">ETH</div>
+										<div class="currency__name_full">etherium</div>
+									</li>
+									<li class="currency__item js-currency__item currency__item_tablet-hide">
+										<div class="currency__name">ETH</div>
+										<div class="currency__name_full">etherium</div>
+									</li>
+									<li class="currency__item  currency__item_btn">
+										<div class="currency__btn-more js-currency__btn-more">
+											<span class="icon-arrow-down"></span>
+										</div>
+									</li>
+								</ul>
+								
+								<div class="quantity">
+									<div class="box-field">
+										<span class="close box-field__close"></span>
+										<div class="box-field__input">
+											<input type="text" class="form-control form-control_val" onkeyup="return proverka(this);" onchange="return proverka(this);">
+											<div class="quantity__currency-name">btc</div>
+											<label  class="box-field__label">enter the amount</label>
+										</div>
+									</div>
+								</div>
+								<div class="currency__more">	
+									<div class="box-field">
+										<!-- <label for="" class="box-field__label"></label> -->
+										<div class="box-field__input">
+											<input type="search" class="form-control js-form-control_search" placeholder="etherium">
+											<span class="icon-search"></span>
+										</div>
+									</div>
+									<div class="more-wrap scroll">
+										<ul class="currency__list currency__list_more">
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+										</ul>
+									</div>
+								</div> 
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="js-converter-to converter-box converter-box_to">
+						<div class="currency-title currency-title_to">to</div>
+						<div class="converter__item">
+							
+							<div class="currency">
+								<ul class="currency__list currency__list_to">
+									<li class="currency__item js-currency__item btn-more-mob js-btn-more-mob active">
+										<span class="icon-arrow-down"></span>
+										<div class="currency__name">BTC</div>
+										<div class="currency__name_full">bitcoin</div>
+									</li>
+									<li class="currency__item js-currency__item currency__item_mob-hide">
+										<div class="currency__name">ETH</div>
+										<div class="currency__name_full">etherium</div>
+									</li>
+									<li class="currency__item js-currency__item currency__item_tablet-hide">
+										<div class="currency__name">ETH</div>
+										<div class="currency__name_full">etherium</div>
+									</li>
+									<li class="currency__item currency__item_btn">
+										<div class="currency__btn-more js-currency__btn-more">
+											<span class="icon-arrow-down"></span>
+										</div>
+									</li>
+								</ul>
+								
+								<div class="quantity">
+									<div class="box-field">
+										<div class="box-field__input">
+											<input disabled type="text" class="form-control form-control_val" onkeyup="return proverka(this);" onchange="return proverka(this);">
+											<div class="quantity__currency-name">btc</div>
+											<label  class="box-field__label">approximate amount</label>
+										</div>
+									</div>
+								</div>
+								<div class="currency__more">	
+									<div class="box-field">
+										<!-- <label for="" class="box-field__label"></label> -->
+										<div class="box-field__input">
+											<input type="search" class="form-control js-form-control_search" placeholder="etherium">
+											<span class="icon-search"></span>
+										</div>
+									</div>
+									<div class="more-wrap scroll">
+										<ul class="currency__list currency__list_more">
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">BTC</div>
+												<div class="currency__name_full">bitcoin</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+											<li class="currency__item js-currency__item_more">
+												<div class="currency__item-cont">
+												<div class="currency__name">ETH</div>
+												<div class="currency__name_full">etherium</div>
+											</div>
+											</li>
+										</ul>
+									</div>
+								</div> 
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>	
+		</div>
+		</main>	
+
+		<!-- CONTENT EOF   -->
+
+		<!-- BEGIN HEADER -->
+
+		<header class="clearfix header_styled">
+			<div class="header-wrap header-wrap_styled">	
+				<div class="share">
+					<a href="#">
+						<span class="share__text">Share</span>
+						<span class="icon-box icon-box_share">	
+							<span class="icon icon-share"></span>
+						</span>
+					</a>
+				</div>	
+				<div class="header-lang">
+					<div class="box-lang js-main-lang">
+						<div class="lang-select js-lang-title">
+							<div class="icon-box icon-box_lang">
+								<span class="lang-select__text">EN</span>
+								<span class="list-lang__name list-lang__name_used">Language</span>
+							</div>
+						</div>
+						<ul class="list-lang js-list-lang">                               
+							<li class="list-lang__item">
+								<a href="#">
+									<label class="list-lang__label">
+										<input class="list-lang__input" type="radio" name="lang" checked>
+										<span class="list-lang__text">ru</span>
+										<span class="list-lang__name">Русский</span>
+									</label>
+								</a>
+							</li>
+							<li class="list-lang__item">
+								<a href="#">
+									<label class="list-lang__label">
+										<input class="list-lang__input" type="radio" name="lang">
+										<span class="list-lang__text">uk</span>
+										<span class="list-lang__name">Український</span>
+									</label>
+								</a>
+							</li>
+							<li class="list-lang__item">
+								<a href="#">
+									<label class="list-lang__label">
+										<input class="list-lang__input" type="radio" name="lang">
+										<span class="list-lang__text">en</span>
+										<span class="list-lang__name">English</span>
+									</label>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+
+				<!-- <nav class="nav-custom js-nav-custom"></nav> -->
+			</div>
+
+		</header>
+
+		<!-- HEADER EOF   -->	
+
+		<!-- BEGIN FOOTER -->	
+
+		<footer class="footer_styled">
+			<div class="footer-logo">
+				<div class="footer-logo__box">
+					<div class="footer-logo__img">
+						<img src="img/logo-footer.svg" alt="">
+					</div>
+					<div class="footer-logo__text">By BITS tokens</div>
+				</div>
+			</div>
+			<a href="#" class="footer__link">
+				<span>
+					The conversion details
+				</span>
+			</a>
+			<div class="footer-copy">
+				© 2018 Bitsto.com <sup>TM</sup>
+			</div>
+		</footer>
+
+		<!-- FOOTER EOF   -->
+
+
+	</div>
+
+	<div class="icon-load"></div>		
+
+	<!-- BODY EOF   -->
+
+	<script src="js/jquery-3.0.0.min.js"></script>		
+	<script src="js/jquery-migrate-1.4.1.min.js" ></script>
+	<script src="js/components/jquery.formstyler.js" ></script>
+	<script src="js/components/jquery.mCustomScrollbar.js" ></script>
+	<!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+
+	<script src="js/custom.js" ></script>
+</body>
+</html>
