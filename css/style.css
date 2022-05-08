@@ -816,6 +816,7 @@ ul { list-style-type: none; }
 nav { display: inline-block; vertical-align: top; margin-right: -4px; width: auto; margin-top: 32px; }
 
 .main-nav-list__item { display: inline-block; vertical-align: top; margin-right: -4px; padding-right: 46px; }
+.main-nav-list__item.active{pointer-events: none;}
 
 .main-nav-list__item:last-child { padding-right: 0; }
 
@@ -893,7 +894,7 @@ nav { display: inline-block; vertical-align: top; margin-right: -4px; width: aut
   .main-wrapper_settings .header-login__settings .icon { font-size: 30px; }
   .main-wrapper_settings .header-login__or { padding-left: 4px; } }
 
-@media screen and (max-width: 1200px) { .header-login { position: relative; }
+@media screen and (max-width: 1215px) { .header-login { position: relative; }
   .header-login__box { -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.06); box-shadow: 0 3px 20px rgba(0, 0, 0, 0.06); position: absolute; background: #fff; left: -99999px; top: 40px; opacity: 0; -webkit-transition: opacity 0.4s; -o-transition: opacity 0.4s; transition: opacity 0.4s; }
   .header-login__box.active { opacity: 1; padding: 10px; -webkit-border-radius: 10px; border-radius: 10px; right: 0; left: auto; }
   .header-login__or { margin: 0 10px; }
