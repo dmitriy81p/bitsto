@@ -1,0 +1,145 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+	background-color: transparent; 	
+	text-align:left;
+	width:100%;
+	min-width: $min-width;
+	order: 3;	
+    -webkit-order: 3;
+    padding: 46px 15px 77px;
+    max-width: 1775px;
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-logo{
+	width: 193px;
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: middle;
+&__box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+&__img{
+width: 55px;
+height: 55px;
+margin-right: 20px;
+	img{
+		display: block;
+		width: 100%;
+	}
+}
+&__text{
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 17px;
+}
+}
+.footer-adress{
+	display: inline-block;
+	width: calc(100% - 353px);
+	vertical-align: middle;
+	margin-right: -4px;
+	text-align: center;
+	color: #29475B;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 17px;
+}
+.footer-copy{
+	float: right;
+	margin-top: 19px;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.51;
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 700;
+	sup{
+		font-size: 5px;
+		line-height: 5px;
+		position: relative;
+		top: -3px;
+	}
+}
+@media screen and (max-width: 1460px) {
+.footer-logo{
+	width: 154.4px;
+&__box{
+}
+&__img{
+width: 44px;
+height: 44px;
+margin-right: 16px;
+}
+&__text{
+	font-size: 13.6px;
+	line-height: 13.6px;
+}
+}
+.footer-adress{
+	width: calc(100% - 282.4px);
+	font-size: 13.6px;
+	line-height: 13.6px;
+}
+.footer-copy{
+	font-size: 13.6px;
+	line-height: 13.6px;
+	sup{
+		font-size: 4px;
+		line-height: 4px;
+		position: relative;
+		top: -2px;
+	}
+}
+.footer-copy{
+	margin-top: 15.2px;
+}
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	footer{
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	footer{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-logo{
+		display: block;
+		margin: 0 auto 20px;
+
+	}
+	.footer-adress{
+		display: block;
+		width: 100%;
+		margin: 0 auto 20px;
+	}
+	.footer-copy{
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: 0;
+	}
+}
