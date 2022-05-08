@@ -1373,7 +1373,7 @@ h3 { font-size: 35px; line-height: 39px; color: #29475B; font-family: ProximaNov
 
 .close { position: absolute; width: 25px; height: 25px; background-color: #A7A7A7; -webkit-border-radius: 50%; border-radius: 50%; left: 10px; top: 10px; }
 
-.close:hover { opacity: 1; }
+.close:hover { opacity: 0.8; }
 
 .close:before, .close:after { position: absolute; left: 11px; top: 7px; content: ' '; height: 11px; width: 3px; background-color: #F0F0F0; }
 
